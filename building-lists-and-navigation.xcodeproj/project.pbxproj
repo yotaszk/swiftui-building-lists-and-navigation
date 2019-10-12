@@ -35,6 +35,7 @@
 		496E3B082351AC7B00DE1A13 /* silversalmoncreek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496E3AFB2351AC7B00DE1A13 /* silversalmoncreek.jpg */; };
 		496E3B092351AC7B00DE1A13 /* icybay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496E3AFC2351AC7B00DE1A13 /* icybay.jpg */; };
 		496E3B0A2351AC7B00DE1A13 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496E3AFD2351AC7B00DE1A13 /* umbagog.jpg */; };
+		496E3B0C2351C52900DE1A13 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496E3B0B2351C52900DE1A13 /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		496E3AFB2351AC7B00DE1A13 /* silversalmoncreek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silversalmoncreek.jpg; sourceTree = "<group>"; };
 		496E3AFC2351AC7B00DE1A13 /* icybay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icybay.jpg; sourceTree = "<group>"; };
 		496E3AFD2351AC7B00DE1A13 /* umbagog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbagog.jpg; sourceTree = "<group>"; };
+		496E3B0B2351C52900DE1A13 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +215,7 @@
 		496E3AE323515D2300DE1A13 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				496E3AED2351A5BD00DE1A13 /* LandmarkRow.swift */,
 				496E3AE423515E6700DE1A13 /* MapView.swift */,
 				496E3AE623515EC400DE1A13 /* CircleImage.swift */,
 			);
@@ -223,7 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				496E3AE923519DB400DE1A13 /* LandmarkDetail.swift */,
-				496E3AED2351A5BD00DE1A13 /* LandmarkRow.swift */,
+				496E3B0B2351C52900DE1A13 /* LandmarkList.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4949F53123514E2100742B8B /* AppDelegate.swift in Sources */,
+				496E3B0C2351C52900DE1A13 /* LandmarkList.swift in Sources */,
 				496E3AF02351AA7E00DE1A13 /* Data.swift in Sources */,
 				496E3AE523515E6700DE1A13 /* MapView.swift in Sources */,
 				4949F53623514E2100742B8B /* building_lists_and_navigation.xcdatamodeld in Sources */,
