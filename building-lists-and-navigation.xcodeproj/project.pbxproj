@@ -36,6 +36,7 @@
 		496E3B092351AC7B00DE1A13 /* icybay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496E3AFC2351AC7B00DE1A13 /* icybay.jpg */; };
 		496E3B0A2351AC7B00DE1A13 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496E3AFD2351AC7B00DE1A13 /* umbagog.jpg */; };
 		496E3B0C2351C52900DE1A13 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496E3B0B2351C52900DE1A13 /* LandmarkList.swift */; };
+		496E3B0E2351D5DB00DE1A13 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 496E3B0D2351D5DB00DE1A13 /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		496E3AFC2351AC7B00DE1A13 /* icybay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icybay.jpg; sourceTree = "<group>"; };
 		496E3AFD2351AC7B00DE1A13 /* umbagog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbagog.jpg; sourceTree = "<group>"; };
 		496E3B0B2351C52900DE1A13 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		496E3B0D2351D5DB00DE1A13 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 		4949F56723515C3A00742B8B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				496E3B0D2351D5DB00DE1A13 /* landmarkData.json */,
 				496E3AF22351AC7B00DE1A13 /* chilkoottrail.jpg */,
 				496E3AF32351AC7B00DE1A13 /* chincoteague.jpg */,
 				496E3AF92351AC7B00DE1A13 /* hiddenlake.jpg */,
@@ -338,6 +341,7 @@
 				496E3B082351AC7B00DE1A13 /* silversalmoncreek.jpg in Resources */,
 				496E3B072351AC7B00DE1A13 /* yukon_charleyrivers.jpg in Resources */,
 				4949F54023514E2200742B8B /* LaunchScreen.storyboard in Resources */,
+				496E3B0E2351D5DB00DE1A13 /* landmarkData.json in Resources */,
 				496E3B062351AC7B00DE1A13 /* hiddenlake.jpg in Resources */,
 				496E3AFF2351AC7B00DE1A13 /* chilkoottrail.jpg in Resources */,
 				496E3B022351AC7B00DE1A13 /* turtlerock.jpg in Resources */,
